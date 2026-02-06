@@ -9,6 +9,7 @@ pandas>=2.0.0
 # Audio Processing
 librosa>=0.11.0
 soundfile>=0.12.0
+audiomentations>=0.34.0
 
 # Machine Learning
 scikit-learn>=1.5.0
