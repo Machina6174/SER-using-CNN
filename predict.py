@@ -12,6 +12,11 @@ import os
 import sys
 import argparse
 import numpy as np
+
+# Suppress TensorFlow logs
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+
 import tensorflow as tf
 
 # Add src to path
