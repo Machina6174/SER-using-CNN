@@ -1,10 +1,10 @@
-# 🎤 Speech Emotion Recognition using CNN
+# Speech Emotion Recognition using CNN
 
 A deep learning project that classifies emotions from speech audio using a 2D Convolutional Neural Network trained on Mel-spectrograms.
 
 ---
 
-## 👤 Author
+## Author
 
 | Name | Student ID |
 |------|------------|
@@ -12,7 +12,7 @@ A deep learning project that classifies emotions from speech audio using a 2D Co
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Metric | Value |
 |--------|-------|
@@ -24,18 +24,18 @@ A deep learning project that classifies emotions from speech audio using a 2D Co
 ### Per-Emotion Accuracy
 | Emotion | Recall | Notes |
 |---------|--------|-------|
-| Neutral | 94% | ✅ |
-| Calm | 97% | ✅ |
-| Happy | 74% | ⚠️ Confused with Surprised |
-| Sad | 84% | ✅ |
-| Angry | 92% | ✅ |
-| Fearful | 95% | ✅ |
-| Disgust | 92% | ✅ |
-| Surprised | 95% | ✅ |
+| Neutral | 94% |  |
+| Calm | 97% |   |
+| Happy | 74% |  Confused with Surprised |
+| Sad | 84% |  |
+| Angry | 92% |  |
+| Fearful | 95% |  |
+| Disgust | 92% |  |
+| Surprised | 95% |  |
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the repository
 ```bash
@@ -74,12 +74,12 @@ python predict.py data/raw/Actor_01/03-01-05-01-01-01-01.wav
 
 **Expected output:**
 ```
-🎯 Predicted emotion: ANGRY (97.5% confidence)
+Predicted emotion: ANGRY (97.5% confidence)
 ```
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 SER-using-CNN/
@@ -104,7 +104,7 @@ SER-using-CNN/
 
 ---
 
-## 🏗️ Model Architecture
+## Model Architecture
 
 ```
 Input: (128, 130, 1) Mel-Spectrogram
@@ -124,7 +124,7 @@ Input: (128, 130, 1) Mel-Spectrogram
 
 ---
 
-## 🔧 Training Details
+## Training Details
 
 | Parameter | Value |
 |-----------|-------|
@@ -146,7 +146,7 @@ Input: (128, 130, 1) Mel-Spectrogram
 
 ---
 
-## 🎯 Usage Examples
+## Usage Examples
 
 ### Basic Inference
 ```bash
@@ -165,7 +165,7 @@ python predict.py audio.wav --model path/to/model.keras
 
 ---
 
-## ⚠️ Known Limitations & Challenges
+## Known Limitations & Challenges
 
 ### Acoustic Ambiguity
 | Confusion Pair | Why It Happens | Human Accuracy |
@@ -173,7 +173,7 @@ python predict.py audio.wav --model path/to/model.keras
 | Calm ↔ Sad ↔ Neutral | All low-arousal, quiet, slow speech | ~70% |
 | Happy ↔ Surprised | Both high-energy, positive valence | ~80% |
 
-> 💡 These confusions are **inherent to audio-only emotion recognition** — even trained human annotators struggle with these distinctions.
+> These confusions are **inherent to audio-only emotion recognition** — even trained human annotators struggle with these distinctions.
 
 ### Model Biases
 - **Gender Gap**: 6.5% accuracy difference (93.2% female vs 86.6% male)
@@ -187,7 +187,7 @@ python predict.py audio.wav --model path/to/model.keras
 
 ---
 
-## 🔮 Future Scope
+## Future Scope
 
 | Enhancement | Expected Impact | Difficulty |
 |-------------|-----------------|------------|
@@ -200,7 +200,7 @@ python predict.py audio.wav --model path/to/model.keras
 
 ---
 
-## 📚 Dataset
+## Dataset
 
 **RAVDESS** (Ryerson Audio-Visual Database of Emotional Speech and Song)
 - 24 professional actors (12 male, 12 female)
