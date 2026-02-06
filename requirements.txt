@@ -1,0 +1,22 @@
+# Speech Emotion Recognition - Dependencies
+# Tested on Python 3.9+
+
+# Core ML
+tensorflow>=2.16.0
+numpy>=1.26.0
+pandas>=2.0.0
+
+# Audio Processing
+librosa>=0.11.0
+soundfile>=0.12.0
+
+# Machine Learning
+scikit-learn>=1.5.0
+
+# Visualization
+matplotlib>=3.9.0
+seaborn>=0.13.0
+
+# Utilities
+tqdm>=4.66.0
+requests>=2.31.0
