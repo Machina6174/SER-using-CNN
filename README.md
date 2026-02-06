@@ -39,7 +39,7 @@ A deep learning project that classifies emotions from speech audio using a 2D Co
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/SER-using-CNN.git
+git clone https://github.com/Machina6174/SER-using-CNN.git
 cd SER-using-CNN
 ```
 
@@ -206,7 +206,5 @@ python predict.py audio.wav --model path/to/model.keras
 - 24 professional actors (12 male, 12 female)
 - 8 emotions: Neutral, Calm, Happy, Sad, Angry, Fearful, Disgust, Surprised
 - ~2,880 audio files
-
-Source: [Zenodo](https://zenodo.org/record/1188976)
 
 ---
