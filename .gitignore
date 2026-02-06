@@ -8,9 +8,17 @@ __pycache__/
 *.py[cod]
 *.so
 
-# Data (large files - download separately)
+# Data - Ignore raw and processed by default
 data/raw/
 data/processed/
+
+# Exception: Allow processed Test and Validation data (for reproducibility)
+!data/processed/X_test.npy
+!data/processed/y_test.npy
+!data/processed/metadata_test.pkl
+!data/processed/X_val.npy
+!data/processed/y_val.npy
+!data/processed/metadata_val.pkl
 
 # IDE
 .idea/
@@ -24,10 +32,6 @@ Thumbs.db
 
 # Jupyter
 .ipynb_checkpoints/
-
-# Model weights (if too large for GitHub)
-# Uncomment if model exceeds 100MB
-# models/*.keras
 
 # Logs
 *.log
